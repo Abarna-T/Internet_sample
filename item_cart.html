@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="item_cart.css">
+    </head>
+    <body>
+        
+        <div id="cont">
+            <div id="header" class="header">
+                <img src="logo.png" height="100px" width="200px">
+                <span id="login_but" style="width:100px;height:50px"><a href="login.html">Login</a></span>
+                <span id="signup_but" style="width:100px;height:50px"><a href="index.html">Sign Up</a></span>
+            </div>
+            <div id="container">
+           
+             <div class="item" id="item">
+               <img src="dhal.jpg" height="200px" width="250px"style="float:left">
+                <div class="list" id="list">
+                  <p id="name">Dhal 1kg</p>
+                  <p id="price">Rs:101</p> 
+                </div>
+                <div class="calc" id="calc">
+                  <div class="calculation" id="calculation">
+                    <input type="button" class="sub" id="sub" onclick="sub_count()" value="-">
+                    <input class="count" id="d_count" value="0">
+                    <input type="button" class="plus" id="plus" onclick="add_count()" value="+">
+                  </div>
+                </div>
+                <div class="order" id="order">
+                  <div class="total_amount" id="total_amount">
+                      <p>Price (1 Item) : Rs: 101</p>
+                      <p>Total Quantity : <span id="cnt">0</span></p>
+                      <div >Total_Amount</div>
+                      <div class="total" id="total">0</div>
+                  </div>  
+               </div>
+               <div style="margin:10px">
+                <button class="PlaceOrder" id="PlaceOrder" onclick="order()">PlaceOrder</button></div>
+             </div>
+
+
+             <div class="item" id="w_item">
+              <img src="wheat.jpg" height="200px" width="250px"style="float:left">
+               <div class="list" id="list">
+                 <p id="name">wheat 1kg</p>
+                 <p id="price">Rs:150</p> 
+               </div>
+               <div class="calc" id="w_calc">
+                <!-- <span>Quantity</span> -->
+                <div class="calculation" id="w_calculation">
+                  <input type="button" class="sub" id="w_sub" onclick="w_sub_count()" value="-">
+                  <input class="count" id="w_count" value="0">
+                  <input type="button" class="plus" id="w_plus" onclick="w_add_count()" value="+">
+                </div>
+              </div>
+              <div class="order" id="w_order">
+                <div class="total_amount" id="w_total_amount">
+                    <p>Price (1 Item) : Rs: 101</p>
+                    <p>Total Quantity : <span id="w_cnt">0</span></p>
+                    <div >Total_Amount</div>
+                    <div class="total" id="w_total">0</div>
+                </div>  
+             </div>
+             <div style="margin:10px">
+              <button class="PlaceOrder" id="w_PlaceOrder" onclick="order()">PlaceOrder</button></div>
+           </div>
+
+             
+            </div>
+        </div>
+      <script src="item_cart.js">
+        
+      </script>
+    </body>
+</html>

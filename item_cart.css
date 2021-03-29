@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    /* font-size: 20px; */
+    /* color:white; */
+}
+
+#header{
+    width:1300px;
+    background-color:cornsilk;
+}
+#login_but{
+    padding:5px;
+    float:right;
+}
+#signup_but{
+    padding:5px;
+    float:right;
+}
+#container{
+    display:flex;
+    flex-direction:row;
+    width:1200px;
+    margin:20px;
+    padding:20px;
+    flex-wrap: wrap;   
+}
+
+.list{
+    padding:10px;
+    font-weight: bold;
+    color:white;
+    width:200px;
+    height:200px;
+    float:left;
+    font-size:30px;
+    text-align:center;
+    align-items: center;
+    background-color: seagreen;
+}
+.item{
+    box-shadow: -10px 10px 10px #E7EBE0FF;
+    margin-bottom:20px;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    height:200px;
+}
+.calc{
+    display:flex;
+    flex-direction:column;
+    /* background-color: aquamarine; */
+    width:250px;
+    align-items: center;
+    justify-content: center;
+    height:200px;
+}
+.calculation{
+    display:flex;
+    flex-direction:row;
+}
+.plus{
+    float:left;
+    border:1px solid rgb(212, 95, 17);
+    background-color:rgb(212, 95, 17);
+    outline:0;
+    color:white;
+    width:40px;
+    padding:5px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.sub{
+    float:right;
+    border:1px solid rgb(212, 95, 17);
+    background-color:rgb(212, 95, 17);
+    width:40px;
+    color:white;
+    outline:0;
+    padding:5px; font-size: 20px;
+    text-align:center;
+    font-weight: bolder;
+}
+.count{
+    padding:10px;
+    width:60px;
+    color:#CE4A7EFF;
+    border:1px solid white;
+    text-align: center; font-size: 20px;
+    font-weight: bolder;
+}
+.total_amount,.price_details{
+    padding:10px;
+    height:200px;
+    color:#AE0E36FF;
+   background-color: blanchedalmond;
+    text-align: center;
+    font-weight: bolder;
+}
+.total{
+    margin:10px;
+    margin-top:10px;
+    font-size: 25px;
+    color:rgb(206, 74, 74);
+    text-align: center;
+    font-weight:bolder;
+}
+.order{
+    float:right;
+    width:300px;
+}
+.PlaceOrder{
+    padding:10px;
+    font-size: 20px;
+   
+    font-weight: bolder;
+    color:white;
+    width:100%;
+    outline:0;
+    margin-top:60px;
+    margin-left:0px;
+    border:1px solid rgb(212, 95, 17);
+    background-color:rgb(212, 95, 17);
+    cursor:pointer;
+    border-radius: 5px;
+} 

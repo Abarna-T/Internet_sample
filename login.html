@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+        <div id="header" class="header">
+            <img src="logo.png" height="100px" width="200px">
+            <span id="login_but" style="width:100px;height:50px"><a href="login.html">Login</a></span>
+        <span id="signup_but" style="width:100px;height:50px"><a href="index.html">Sign Up</a></span>
+        </div>
+        <div id="sign_con">
+        <div id="signup">
+            <!-- <div id="title"><h3>Form Details</h3></div> -->
+            <form id="form" >
+                <div>
+                    <label>Email</label>
+                    <input type="email" id="email"></div>
+                <div>
+                    <label>Password</label>
+                    <input type="password" id="password"></div>
+            </form>
+            <input type="button" id="button" onclick="submit()" value="LOGIN"><br><br>
+            <span id="error"></span><br><br>
+            <a href="index.html">or Create a new account</a> 
+        </div>
+    </div>
+    <script src="login.js"></script>
+    </body>
+</html>
